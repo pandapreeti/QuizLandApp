@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:gravity="center_horizontal"
+  android:background="@drawable/ic_bg"
+  android:padding="20dp"
+  tools:context=".ResultActivity">
+
+  <TextView
+    android:id="@+id/tv_result"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="30dp"
+    android:text="Result"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:textSize="25sp"
+    />
+
+  <ImageView
+    android:id="@+id/iv_trophy"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="image"
+    android:src="@drawable/ic_trophy"/>
+
+  <TextView
+    android:id="@+id/tv_congratulations"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:text="Hey,Congratulations!"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:textSize="25sp"
+    />
+
+  <TextView
+    android:id="@+id/tv_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="25dp"
+    android:text="Username"
+    android:textStyle="bold"
+    android:textColor="@android:color/white"
+    android:textSize="22sp"
+    />
+
+  <TextView
+    android:id="@+id/tv_score"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="Your Score"
+    android:textStyle="bold"
+    android:textColor="@android:color/secondary_text_dark"
+    android:textSize="20sp"
+    />
+
+  <Button
+    android:id="@+id/btn_finish"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:text="FINISH"
+    android:backgroundTint="@android:color/white"
+    android:textColor="@color/purple_500"
+    />
+
+  <Button
+    android:id="@+id/btn_reset"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:text="RESET"
+    android:backgroundTint="@android:color/white"
+    android:textColor="@color/purple_500"
+    />
+
+
+
+</LinearLayout>
